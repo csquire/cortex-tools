@@ -23,7 +23,8 @@ require (
 	github.com/gonum/stat v0.0.0-20181125101827-41a0da705a5b
 	github.com/google/go-github/v32 v32.1.0
 	github.com/gorilla/mux v1.8.0
-	github.com/grafana-tools/sdk v0.0.0-20220203092117-edae16afa87b
+	github.com/gosimple/slug v1.12.0 // indirect
+	github.com/grafana-tools/sdk v0.0.0-20220611090550-5c2631ac7ee4
 	github.com/grafana/dskit v0.0.0-20211103155626-4e784973d341
 	github.com/grafana/loki v1.6.2-0.20211108134117-5b9f5b9efaa5
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
@@ -73,4 +74,5 @@ replace github.com/bradfitz/gomemcache => github.com/themihai/gomemcache v0.0.0-
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.8.1
 
-replace github.com/grafana-tools/sdk => github.com/colega/grafana-tools-sdk v0.0.0-20220323154849-711bca56d13f
+//replace github.com/grafana-tools/sdk => github.com/colega/grafana-tools-sdk v0.0.0-20220323154849-711bca56d13f
+replace github.com/grafana-tools/sdk => github.com/csquire/grafana-tools-sdk v0.0.0-20220630180924-ebd149ea81a2
